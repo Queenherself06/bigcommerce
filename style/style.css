@@ -1,0 +1,2076 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-class {
+  background: #d5d5d5;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.main-class .inner-class {
+  width: 44rem;
+  background: #000102;
+}
+.main-class .inner-class .main-logo-wrapper {
+  padding-top: 5rem;
+  background: white;
+}
+.main-class .inner-class .main-logo-wrapper .main-logo-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .main-logo-wrapper .main-logo-parent .main-logo-child {
+  padding: 3rem;
+}
+.main-class .inner-class .main-logo-wrapper .main-logo-parent .main-logo-child img {
+  height: auto;
+  width: 17rem;
+}
+.main-class .inner-class .main-logo-wrapper .main-logo-parent .main-logo-child i {
+  font-size: 2rem;
+  color: #aba4a4;
+}
+.main-class .inner-class .main-logo-wrapper .page-heading-wrapper {
+  background: linear-gradient(205deg, #0E3739 0.95%, #102A41 25.71%, #000102 100%);
+}
+.main-class .inner-class .main-logo-wrapper .page-heading-wrapper .heading {
+  padding-top: 8rem;
+  text-align: center;
+}
+.main-class .inner-class .main-logo-wrapper .page-heading-wrapper .heading h1 {
+  color: white;
+  font-size: 5.2rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-heading-wrapper .video-image {
+  display: flex;
+  justify-content: center;
+  padding: 8rem 3rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-heading-wrapper .video-image img {
+  height: auto;
+  width: 100%;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper {
+  background: #000102;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description h2 {
+  color: white;
+  padding-top: 8rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description h3 {
+  color: white;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description h3 sup {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description-box-wrapper {
+  margin-top: 2.5rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description-box-wrapper .description-box-parent {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0rem 3rem;
+  gap: 1rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description-box-wrapper .description-box-parent .description-box-child {
+  background: #23212B;
+  color: white;
+  padding: 0rem 4rem 2.2rem 1.5rem;
+  text-align: start;
+  flex: 1;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description-box-wrapper .description-box-parent .description-box-child img {
+  padding: 1.5rem 4rem 0rem 0rem;
+  height: auto;
+  width: 10rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description-box-wrapper .description-box-parent .description-box-child h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #03EADA;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description-box-wrapper .description-box-parent .description-box-child h3 sup {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .description-box-wrapper .description-box-parent .description-box-child h3 span {
+  color: white;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .member-details {
+  margin-top: 15rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .member-details h1 {
+  color: white;
+  font-size: 2.3rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .member-details img {
+  margin-top: 2rem;
+  height: auto;
+  width: 80%;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .member-image-wrapper .member-image-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .member-image-wrapper .member-image-parent .member-image-child img {
+  height: auto;
+  width: 7rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .commercial-heading {
+  margin-top: 12rem;
+  text-align: start;
+  color: white;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .commercial-heading h1 {
+  padding-left: 3rem;
+  font-size: 2.5rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .commercial-heading .commercial-briefing {
+  padding-left: 3rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .commercial-heading .commercial-briefing h2 {
+  padding: 1rem 0rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .commercial-heading .commercial-briefing h3 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding-top: 1.5rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .commercial-heading .briefing-list {
+  margin-top: 1rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .commercial-heading .briefing-list ul {
+  padding-left: 5rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .commercial-heading .briefing-list ul li {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .illustration-image {
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .illustration-image img {
+  height: auto;
+  width: 60%;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .icons-details {
+  margin-top: 3rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .icons-details .icons-details-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .icons-details .icons-details-parent .icons-details-child {
+  color: white;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .icons-details .icons-details-parent .icons-details-child .child-img {
+  text-align: start;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .icons-details .icons-details-parent .icons-details-child .child-img img {
+  height: auto;
+  width: 5rem;
+  padding-bottom: 1.5rem;
+}
+.main-class .inner-class .main-logo-wrapper .page-description-wrapper .icons-details .icons-details-parent .icons-details-child h3 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: start;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper {
+  margin-top: 2rem;
+  padding: 0rem 3rem;
+  background: linear-gradient(180deg, #FFF 0%, #EEEAFD 100%);
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-heading {
+  color: black;
+  padding-top: 3.5rem;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-heading h1 {
+  font-weight: 350;
+  font-size: 2rem;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-heading h2 {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-heading h3 {
+  padding: 1rem 0rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-heading p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  color: #5D5D69;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-heading .platform-list ul {
+  padding-left: 2rem;
+  margin-top: 3rem;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-heading .platform-list ul li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  color: #5D5D69;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-wrapper .tips-parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-wrapper .tips-parent .tips-child {
+  background: linear-gradient(180deg, #A6E8EC 0%, #E0F6F7 100%);
+  border-radius: 1rem;
+  color: black;
+  flex: 1;
+  padding: 0rem 1rem 1.5rem 1.5rem;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .tips-wrapper .tips-parent .tips-child .child-img img {
+  padding: 1.5rem 4rem 1.5rem 0rem;
+  height: auto;
+  width: 8rem;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .commerce-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.main-class .inner-class .main-logo-wrapper .commercial-tips-wrapper .commerce-img img {
+  height: auto;
+  width: 100%;
+}
+.main-class .inner-class .main-logo-wrapper .business-catalog-wrapper {
+  padding: 0rem 3rem;
+  background-color: black;
+}
+.main-class .inner-class .main-logo-wrapper .business-catalog-wrapper .catalog-heading {
+  color: white;
+  text-align: center;
+  padding-top: 7rem;
+}
+.main-class .inner-class .main-logo-wrapper .business-catalog-wrapper .catalog-heading h2 {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+.main-class .inner-class .main-logo-wrapper .business-catalog-wrapper .catalog-heading h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-top: 2.5rem;
+}
+.main-class .inner-class .main-logo-wrapper .business-catalog-wrapper .catalog-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7rem;
+}
+.main-class .inner-class .main-logo-wrapper .business-catalog-wrapper .catalog-img img {
+  padding-top: 3rem;
+  height: auto;
+  width: 70%;
+}
+.main-class .inner-class .main-logo-wrapper .platform-explore-wrapper {
+  padding: 0rem 3rem;
+  background: linear-gradient(180deg, #000102 0%, #071D59 100%);
+}
+.main-class .inner-class .main-logo-wrapper .platform-explore-wrapper .explore-title {
+  padding-top: 7rem;
+}
+.main-class .inner-class .main-logo-wrapper .platform-explore-wrapper .explore-title div img {
+  margin-top: 2rem;
+  height: auto;
+  width: 100%;
+}
+.main-class .inner-class .main-logo-wrapper .platform-explore-wrapper .explore-title h2 {
+  font-size: 2.4rem;
+  padding-top: 1rem;
+  color: white;
+  padding-top: 3rem;
+  text-align: center;
+}
+.main-class .inner-class .main-logo-wrapper .platform-explore-wrapper .explore-title P {
+  padding-top: 2.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #1998C7;
+}
+.main-class .inner-class .main-logo-wrapper .platform-explore-wrapper .lets-go-button {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7rem;
+}
+.main-class .inner-class .main-logo-wrapper .platform-explore-wrapper .lets-go-button button {
+  background: #0D52FF;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem 6rem;
+  border: none;
+  border-radius: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .main-logo-parent {
+  padding: 0rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7rem;
+}
+.main-class .inner-class .whole-page-wrapper .main-logo-parent .main-logo-child img {
+  height: auto;
+  width: 17rem;
+}
+.main-class .inner-class .whole-page-wrapper .main-logo-parent .main-logo-child i {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #535252;
+}
+.main-class .inner-class .whole-page-wrapper .home-wrapper {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.main-class .inner-class .whole-page-wrapper .home-wrapper .first-options {
+  color: white;
+  border-top: 0.12rem solid #FFFFFF;
+  padding: 1.4rem 3rem;
+}
+.main-class .inner-class .whole-page-wrapper .home-wrapper .first-options a {
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+}
+.main-class .inner-class .whole-page-wrapper .home-wrapper .second-options {
+  color: white;
+  border-top: 0.12rem solid #FFFFFF;
+  border-bottom: 0.12rem solid #FFFFFF;
+  padding: 1.7rem 3rem;
+}
+.main-class .inner-class .whole-page-wrapper .home-wrapper .second-options a {
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+}
+.main-class .inner-class .whole-page-wrapper .help-center {
+  color: white;
+  border-top: 0.12rem solid #8b8a8a;
+  margin-top: 30.5rem;
+}
+.main-class .inner-class .whole-page-wrapper .help-center h2 {
+  padding: 1.7rem 3rem;
+  font-weight: 400;
+}
+.main-class .inner-class .login-wrapper {
+  background: linear-gradient(205deg, #0E3739 0.95%, #102A41 25.71%, #000102 100%);
+  padding: 0rem 3rem;
+}
+.main-class .inner-class .login-wrapper .arrow-icon {
+  padding-top: 5rem;
+}
+.main-class .inner-class .login-wrapper .arrow-icon i {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fbfafa;
+}
+.main-class .inner-class .login-wrapper .home-title-wrapper .home-title-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.main-class .inner-class .login-wrapper .home-title-wrapper .home-title-parent .home-title-child:first-child {
+  color: white;
+  flex: 1;
+}
+.main-class .inner-class .login-wrapper .home-title-wrapper .home-title-parent .home-title-child:first-child h1 {
+  font-size: 2.8rem;
+}
+.main-class .inner-class .login-wrapper .home-title-wrapper .home-title-parent .home-title-child:last-child {
+  color: white;
+  flex: 2;
+  display: flex;
+  justify-content: end;
+}
+.main-class .inner-class .login-wrapper .home-title-wrapper .home-title-parent .home-title-child:last-child img {
+  height: auto;
+  width: 15rem;
+  transform: scaleX(-1);
+}
+.main-class .inner-class .login-wrapper .home-title-wrapper .login-details {
+  color: white;
+  padding-top: 1rem;
+}
+.main-class .inner-class .login-wrapper .home-title-wrapper .login-details h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.main-class .inner-class .login-wrapper .login-form-detail {
+  border-bottom: 0.12rem solid white;
+  margin-top: 3rem;
+}
+.main-class .inner-class .login-wrapper .login-form-detail h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: white;
+}
+.main-class .inner-class .login-wrapper .login-form-detail input {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 0.1rem solid white;
+  font-size: 1.7rem;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  width: 100%;
+}
+.main-class .inner-class .login-wrapper .forgot-option {
+  text-align: end;
+  margin-top: 1.5rem;
+}
+.main-class .inner-class .login-wrapper .forgot-option p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.main-class .inner-class .login-wrapper .login-button {
+  margin-top: 10rem;
+}
+.main-class .inner-class .login-wrapper .login-button button {
+  background: #0D52FF;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 100%;
+  padding: 1.5rem 0rem;
+  border: none;
+  border-radius: 1.2rem;
+  color: white;
+}
+.main-class .inner-class .login-wrapper .conclusion {
+  margin-top: 3rem;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.main-class .inner-class .login-wrapper .conclusion p {
+  color: white;
+  font-size: 1.2rem;
+}
+.main-class .inner-class .login-wrapper .conclusion h3 {
+  font-size: 1.4rem;
+  color: #0D52FF;
+  padding-top: 0.5rem;
+}
+.main-class .inner-class .whole-page-wrapper .welcome-message-wrapper {
+  background-color: #23212B;
+  margin-top: 1.5rem;
+  padding: 0rem 3rem;
+}
+.main-class .inner-class .whole-page-wrapper .welcome-message-wrapper .message-parent {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .welcome-message-wrapper .message-parent .message-child {
+  color: white;
+  padding: 1rem 0rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper {
+  padding: 0rem 3rem;
+  background: linear-gradient(205deg, #0E3739 0.95%, #102A41 25.71%, #000102 100%);
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .catalog-heading {
+  color: white;
+  text-align: center;
+  padding-top: 5rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .catalog-heading h2 {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .catalog-heading h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-top: 2.5rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .catalog-img {
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .catalog-img img {
+  padding-top: 3rem;
+  height: auto;
+  width: 50%;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .catalog-img-tag {
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .catalog-img-tag img {
+  height: auto;
+  width: 20%;
+  margin-top: -6rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper {
+  margin-top: 5rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent .option-child {
+  background: linear-gradient(205deg, #0E3739 0.95%, #102A41 25.71%, #000102 100%);
+  color: white;
+  padding: 1.5rem 2rem 2.2rem 1.5rem;
+  text-align: start;
+  flex: 1;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent .option-child .deposit-option-design {
+  background-color: #03EADA;
+  height: 10rem;
+  width: 10rem;
+  transform: rotate(40deg);
+  border-radius: 2rem;
+  position: absolute;
+  right: -3rem;
+  top: 0;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent .option-child h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent .option-child .deposit-option-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent .option-child .deposit-option-parent .deposit-option-child {
+  padding-top: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent .option-child .deposit-option-parent .deposit-option-child h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #335C5F;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent .option-child .deposit-option-parent .deposit-option-child .manage-width {
+  width: 2.5rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent .option-child .deposit-option-parent .deposit-option-child img {
+  height: auto;
+  width: 3.6rem;
+  position: relative;
+  z-index: 5;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .setting-option-wrpper {
+  margin-top: 3rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .setting-option-wrpper .setting-option-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .setting-option-wrpper .setting-option-parent .setting-option-child .child-image {
+  background: linear-gradient(205deg, #0E3739 0.95%, #102A41 25.71%, #000102 100%);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .setting-option-wrpper .setting-option-parent .setting-option-child .child-image img {
+  width: 2.5rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .setting-option-wrpper .setting-option-parent .setting-option-child h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-title {
+  margin-top: 6rem;
+  text-align: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-title h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-title img {
+  height: auto;
+  width: 100%;
+  padding-top: 2rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper {
+  margin-top: 2rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper .list-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper .list-parent .list-child {
+  color: white;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper .list-parent .list-child img {
+  height: 14rem;
+  width: 14rem;
+  border-radius: 1rem;
+  background-color: white;
+  margin-right: 1.2rem;
+  padding: 1.5rem 0rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper .list-parent .list-child h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper .list-parent .list-child h1 {
+  color: #03EADA;
+  padding-top: 0.7rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper .list-parent .list-child .rating-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper .list-parent .list-child .rating-parent .rating-child {
+  padding-top: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper .list-parent .list-child .rating-parent .rating-child i {
+  color: #03EADA;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .service-list-wrapper .list-parent .list-child .rating-parent .rating-child p {
+  padding-left: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .member-details {
+  margin-top: 5rem;
+  text-align: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .member-details h1 {
+  color: white;
+  font-size: 2.3rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .member-details img {
+  margin-top: 2rem;
+  height: auto;
+  width: 100%;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .member-image-wrapper .member-image-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .member-image-wrapper .member-image-parent .member-image-child img {
+  height: auto;
+  width: 7rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .description {
+  text-align: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .description h3 {
+  color: white;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .membership-status {
+  margin-top: 15rem;
+  text-align: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .membership-status h1 {
+  color: white;
+  font-size: 2.3rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .membership-status img {
+  margin-top: 2rem;
+  height: auto;
+  width: 100%;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .diamond-img {
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .diamond-img img {
+  width: 70%;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .image {
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .image img {
+  margin-top: -20.5rem;
+  width: 6rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .image-detail {
+  text-align: center;
+  margin-top: -2.5rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .image-detail h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .image-detail .detail-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .image-detail .detail-parent .detail-child {
+  color: white;
+  margin-top: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .image-detail .detail-parent .detail-child i {
+  padding-left: 1rem;
+  color: #03EADA;
+  font-size: 1.7rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .vip-option-wrapper {
+  margin-top: 3rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .vip-option-wrapper .vip-option-parent {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #23212B;
+  margin-bottom: 1rem;
+  padding: 1.5rem 1rem;
+  border-radius: 1.6rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .vip-option-wrapper .vip-option-parent .vip-option-child {
+  color: white;
+  margin-left: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .vip-option-wrapper .vip-option-parent .vip-option-child img {
+  background: rgba(233, 239, 245, 0.08);
+  width: 5rem;
+  height: auto;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .vip-option-wrapper .vip-option-parent .vip-option-child h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .vip-option-wrapper .vip-option-parent .vip-option-child .lock-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .vip-option-wrapper .vip-option-parent .vip-option-child .lock-parent .lock-child i {
+  padding-left: 1rem;
+  font-size: 1.6rem;
+  color: #03EADA;
+}
+.main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .vip-option-wrapper .vip-option-parent .vip-option-child .lock-parent .lock-child p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.main-class .inner-class .page-wrapper {
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+  padding: 0rem 3rem;
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper {
+  margin-top: 5rem;
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper .page-title-parent .page-title-child i {
+  font-size: 2.2rem;
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper {
+  background: linear-gradient(205deg, rgba(14, 55, 57, 0.5) 0.95%, rgba(16, 42, 65, 0.5) 100%);
+  border: 1px solid #0D52FF;
+  border-radius: 1rem;
+  padding: 2.5rem 0rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-heading-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2.5rem;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-heading-parent .wallet-heading-child {
+  color: #95B4CB;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-heading-parent .wallet-heading-child h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-heading-parent .wallet-heading-child:last-child {
+  background: #1B3848;
+  border-radius: 1rem;
+  padding: 0.3rem 0.7rem;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-heading-parent .wallet-heading-child .icon-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-heading-parent .wallet-heading-child .icon-parent .icon-child i {
+  padding-right: 1rem;
+  font-size: 1.2rem;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-heading-parent .wallet-heading-child .icon-parent .icon-child h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .amount {
+  color: white;
+  text-align: center;
+  padding: 2.5rem 0rem;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .amount h1 {
+  font-size: 3.4rem;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-detail-wrapper .wallet-detail-parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 2.5rem;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-detail-wrapper .wallet-detail-parent .wallet-detail-child h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #95B4CB;
+}
+.main-class .inner-class .page-wrapper .wallet-wrapper .wallet-detail-wrapper .wallet-detail-parent .wallet-detail-child:last-child h3 {
+  color: white;
+}
+.main-class .inner-class .page-wrapper .journey-wrapper {
+  margin-top: 2rem;
+}
+.main-class .inner-class .page-wrapper .journey-wrapper .journey-parent {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.main-class .inner-class .page-wrapper .journey-wrapper .journey-parent .journey-child h3 {
+  color: #95B4CB;
+  font-size: 1.3rem;
+}
+.main-class .inner-class .page-wrapper .journey-wrapper .journey-parent .journey-child .icon-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-class .inner-class .page-wrapper .journey-wrapper .journey-parent .journey-child .icon-parent .icon-child img {
+  background: #23212B;
+  width: 3rem;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+}
+.main-class .inner-class .page-wrapper .journey-wrapper .journey-parent .journey-child .icon-parent .icon-child h3 {
+  padding-left: 1rem;
+  color: #818487;
+  font-size: 1.3rem;
+}
+.main-class .inner-class .page-wrapper .journey-wrapper .start-button {
+  text-align: center;
+  margin-top: 3rem;
+}
+.main-class .inner-class .page-wrapper .journey-wrapper .start-button a {
+  display: grid;
+}
+.main-class .inner-class .page-wrapper .journey-wrapper .start-button a button {
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1.5rem 0rem;
+}
+.main-class .inner-class .page-wrapper .service-title {
+  margin-top: 6rem;
+  text-align: center;
+}
+.main-class .inner-class .page-wrapper .service-title h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.main-class .inner-class .page-wrapper .service-title img {
+  height: auto;
+  width: 100%;
+  padding-top: 2rem;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper {
+  margin-top: 2rem;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper .list-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  padding-bottom: 1.5rem;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper .list-parent .list-child {
+  color: white;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper .list-parent .list-child img {
+  height: 14rem;
+  width: 14rem;
+  border-radius: 1rem;
+  background-color: white;
+  margin-right: 1.2rem;
+  padding: 1.5rem 0rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper .list-parent .list-child h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper .list-parent .list-child h1 {
+  color: #03EADA;
+  padding-top: 0.7rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper .list-parent .list-child .rating-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper .list-parent .list-child .rating-parent .rating-child {
+  padding-top: 1rem;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper .list-parent .list-child .rating-parent .rating-child i {
+  color: #03EADA;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.main-class .inner-class .page-wrapper .service-list-wrapper .list-parent .list-child .rating-parent .rating-child p {
+  padding-left: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.main-class .inner-class .main-page-wrapper {
+  margin-top: -8rem;
+}
+.main-class .inner-class .main-page-wrapper .page-image {
+  background: url("../images/submit-page-image.jpg");
+  height: 40rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-class .inner-class .main-page-wrapper .page-image .arrow-icon {
+  padding: 8rem 35rem 8rem 0rem;
+}
+.main-class .inner-class .main-page-wrapper .page-image .arrow-icon i {
+  font-size: 3rem;
+  color: white;
+  text-align: start;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper {
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+  padding: 2rem 3rem;
+  border-radius: 2rem 2rem 0rem 0rem;
+  margin-top: -5rem;
+  overflow: hidden;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .price {
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .price h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .main-title {
+  color: white;
+  margin-top: 2rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .main-title h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .pricing-option-wrapper {
+  margin-top: 3.5rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .pricing-option-wrapper .pricing-option-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent .option-child {
+  color: white;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent .option-child img {
+  height: auto;
+  width: 4rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent .option-child p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding-bottom: 0.5rem;
+  padding-left: 1.2rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent .option-child h2 {
+  padding-left: 1.2rem;
+  font-size: 2rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .border {
+  border: 0.12rem solid #4D4C54;
+  margin-top: 3.5rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .rating-wrapper {
+  margin-top: 2rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .rating-wrapper .rating-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .rating-wrapper .rating-parent .rating-child h2 {
+  font-size: 2rem;
+  color: white;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .rating-wrapper .rating-parent .rating-child ul li {
+  list-style-type: none;
+  color: #03EADA;
+  font-size: 2rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .rating-wrapper .rating-parent .rating-child ul li i:last-child {
+  color: white;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .comment h2 {
+  font-size: 2rem;
+  color: white;
+  margin-top: 2rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .submit-button {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details-wrapper .submit-button button {
+  width: 100%;
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+}
+.main-class .inner-class .dealing-page-wrapper {
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+  padding: 0rem 3rem;
+}
+.main-class .inner-class .dealing-page-wrapper .page-title-wrapper {
+  margin-top: 5rem;
+}
+.main-class .inner-class .dealing-page-wrapper .page-title-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.main-class .inner-class .dealing-page-wrapper .page-title-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .dealing-page-wrapper .page-title-wrapper .page-title-parent .page-title-child i {
+  font-size: 2.2rem;
+}
+.main-class .inner-class .dealing-page-wrapper .page-title-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.main-class .inner-class .dealing-page-wrapper .navigation-bar {
+  margin-top: 5rem;
+}
+.main-class .inner-class .dealing-page-wrapper .navigation-bar .navigation-bar-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .dealing-page-wrapper .navigation-bar .navigation-bar-parent .navigation-bar-child {
+  background: #23212B;
+  color: #6D6E7A;
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.7rem;
+}
+.main-class .inner-class .dealing-page-wrapper .navigation-bar .navigation-bar-parent .navigation-bar-child h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.main-class .inner-class .dealing-page-wrapper .page-image-wrapper {
+  margin-top: 3rem;
+}
+.main-class .inner-class .dealing-page-wrapper .page-image-wrapper .dealing-page-image img {
+  height: 20rem;
+  width: 100%;
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.main-class .inner-class .dealing-page-wrapper .page-image-wrapper .price {
+  text-align: end;
+  margin-top: -6.5rem;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgba(6, 28, 40, 0.4117647059);
+  position: relative;
+}
+.main-class .inner-class .dealing-page-wrapper .page-image-wrapper .price h2 {
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.main-class .inner-class .dealing-page-wrapper .page-image-wrapper .price h1 {
+  font-size: 1.8rem;
+}
+.main-class .inner-class .dealing-page-wrapper .page-image-wrapper .pending {
+  margin-top: 2rem;
+}
+.main-class .inner-class .dealing-page-wrapper .page-image-wrapper .pending h2 {
+  font-size: 1.8rem;
+  color: #6D6E7A;
+}
+.main-class .inner-class .dealing-page-wrapper .main-title {
+  color: white;
+  margin-top: 1rem;
+}
+.main-class .inner-class .dealing-page-wrapper .main-title h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .dealing-page-wrapper .main-title p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #6D6E7A;
+}
+.main-class .inner-class .dealing-page-wrapper .pizza-image-wrapper {
+  margin-top: 1.8rem;
+}
+.main-class .inner-class .dealing-page-wrapper .pizza-image-wrapper .pizza-image img {
+  width: 100%;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.main-class .inner-class .dealing-page-wrapper .pizza-image-wrapper .price {
+  text-align: end;
+  margin-top: -6.5rem;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgba(6, 28, 40, 0.4117647059);
+  position: relative;
+}
+.main-class .inner-class .dealing-page-wrapper .pizza-image-wrapper .price h2 {
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.main-class .inner-class .dealing-page-wrapper .pizza-image-wrapper .price h1 {
+  font-size: 1.8rem;
+}
+.main-class .inner-class .dealing-page-wrapper .pizza-image-wrapper .pending {
+  margin-top: 2rem;
+}
+.main-class .inner-class .dealing-page-wrapper .pizza-image-wrapper .pending h2 {
+  font-size: 1.8rem;
+  color: #6D6E7A;
+}
+.main-class .inner-class .dealing-page-wrapper .pricing-option-wrapper {
+  margin-top: 3.5rem;
+}
+.main-class .inner-class .dealing-page-wrapper .pricing-option-wrapper .pricing-option-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .dealing-page-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child:nth-child(2) {
+  border: 0.2rem solid #4D4C54;
+  height: 3.8rem;
+}
+.main-class .inner-class .dealing-page-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .dealing-page-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent .option-child {
+  color: white;
+}
+.main-class .inner-class .dealing-page-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent .option-child img {
+  height: auto;
+  width: 3rem;
+}
+.main-class .inner-class .dealing-page-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent .option-child p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding-bottom: 0.5rem;
+  padding-left: 1.2rem;
+}
+.main-class .inner-class .dealing-page-wrapper .pricing-option-wrapper .pricing-option-parent .pricing-option-child .option-parent .option-child h2 {
+  padding-left: 1.2rem;
+  font-size: 2rem;
+}
+.main-class .inner-class .dealing-page-wrapper .submit-button {
+  margin-top: 4rem;
+}
+.main-class .inner-class .dealing-page-wrapper .submit-button button {
+  width: 100%;
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+}
+.main-class .inner-class .dealing-page-wrapper .border {
+  border: 0.12rem solid #4D4C54;
+  margin-top: 2rem;
+}
+.main-class .inner-class .support-page-wrapper {
+  padding: 3rem 3rem;
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+}
+.main-class .inner-class .support-page-wrapper .page-title-wrapper {
+  margin-top: 2rem;
+}
+.main-class .inner-class .support-page-wrapper .page-title-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.main-class .inner-class .support-page-wrapper .page-title-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .support-page-wrapper .page-title-wrapper .page-title-parent .page-title-child i {
+  font-size: 2.2rem;
+}
+.main-class .inner-class .support-page-wrapper .page-title-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .support-page-wrapper .page-image {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .support-page-wrapper .page-image img {
+  height: auto;
+  width: 60%;
+}
+.main-class .inner-class .support-page-wrapper .page-details {
+  text-align: center;
+  margin-top: 3rem;
+}
+.main-class .inner-class .support-page-wrapper .page-details h1 {
+  color: white;
+}
+.main-class .inner-class .support-page-wrapper .page-details h3 {
+  color: #6D6E7A;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 0.8rem;
+}
+.main-class .inner-class .support-page-wrapper .page-details p {
+  color: #6D6E7A;
+  padding-top: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .support-page-wrapper .message-button {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+.main-class .inner-class .support-page-wrapper .message-button button {
+  width: 100%;
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+}
+.main-class .inner-class .main-page-wrapper {
+  margin-top: 3rem;
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+}
+.main-class .inner-class .main-page-wrapper .page-title-wrapper {
+  padding: 3rem 3rem;
+}
+.main-class .inner-class .main-page-wrapper .page-title-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .main-page-wrapper .page-title-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .main-page-wrapper .page-title-wrapper .page-title-parent .page-title-child i {
+  font-size: 2.2rem;
+}
+.main-class .inner-class .main-page-wrapper .page-title-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .main-page-wrapper .page-title-wrapper .page-title-parent .page-title-child:last-child .icon {
+  background: #6D6E7A;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-class .inner-class .main-page-wrapper .page-title-wrapper .page-title-parent .page-title-child:last-child .icon i {
+  font-size: 1.5rem;
+}
+.main-class .inner-class .main-page-wrapper .welcome-message {
+  margin-top: 3rem;
+  color: #95B4CB;
+  text-align: center;
+  background: rgba(38, 107, 125, 0.1);
+  padding: 1rem 0rem;
+}
+.main-class .inner-class .main-page-wrapper .welcome-message p {
+  font-size: 1.3rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper {
+  padding: 0rem 3rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper {
+  background: linear-gradient(205deg, rgba(14, 55, 57, 0.5) 0.95%, rgba(16, 42, 65, 0.5) 100%);
+  border: 1px solid #1B3848;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper .wallet-heading-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper .wallet-heading-parent .wallet-heading-child {
+  color: #95B4CB;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper .wallet-heading-parent .wallet-heading-child h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper .wallet-heading-parent .wallet-heading-child:last-child {
+  background: #1B3848;
+  border-radius: 1rem;
+  padding: 0.3rem 0.7rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper .wallet-heading-parent .wallet-heading-child .icon-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper .wallet-heading-parent .wallet-heading-child .icon-parent .icon-child i {
+  padding-right: 1rem;
+  font-size: 1.2rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper .wallet-heading-parent .wallet-heading-child .icon-parent .icon-child h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper .amount {
+  color: white;
+  text-align: center;
+  padding: 0rem 0rem 3.3rem 0rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .wallet-heading-wrapper .amount h1 {
+  font-size: 3.4rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-to {
+  color: white;
+  margin-top: 2.5rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-to h2 {
+  font-size: 1.5rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-to h3 {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-to p {
+  color: #79E7E5;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-services-wrapper {
+  margin-top: 4rem;
+  text-align: center;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-services-wrapper .service-title {
+  color: white;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-services-wrapper .service-title img {
+  height: auto;
+  width: 100%;
+  padding-top: 2rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .quick-choice {
+  margin-top: 3.5rem;
+  height: 0.2rem;
+  width: 100%;
+  background-color: white;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .heading h2 {
+  color: white;
+  padding: 0rem 1rem;
+  margin-top: -1.1rem;
+  background-color: #00103C;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-amount-option {
+  background: linear-gradient(205deg, rgba(14, 55, 57, 0.5) 0.95%, rgba(16, 42, 65, 0.5) 100%);
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #0D52FF;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-amount-option h3 {
+  color: #80ABC1;
+  margin-top: 0.5rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-amount-option .option-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #95B4CB;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-amount-option .option-parent .option-child {
+  padding-right: 1rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-amount-option .option-parent .option-child i {
+  font-size: 1.7rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-amount-option .option-parent .option-child h2 {
+  font-size: 1.8rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .choice-option-wrapper {
+  margin-top: 2rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .choice-option-wrapper .choice-option-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+  gap: 1rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .choice-option-wrapper .choice-option-parent .choice-option-child {
+  background: linear-gradient(205deg, rgba(14, 55, 57, 0.5) 0.95%, rgba(16, 42, 65, 0.5) 100%);
+  padding: 0.8rem 0rem;
+  color: #6D6E7A;
+  border-radius: 2rem;
+  flex: 1;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .choice-option-wrapper .choice-option-parent .choice-option-child h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-button {
+  padding: 5rem 0rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-wrapper .withdraw-button button {
+  width: 100%;
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+}
+.main-class .inner-class .main-page-wrapper .wallet-page-image {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .main-page-wrapper .wallet-page-image img {
+  height: auto;
+  width: 25%;
+}
+.main-class .inner-class .main-page-wrapper .page-details {
+  text-align: center;
+  margin-top: 3rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details h1 {
+  color: white;
+  font-size: 1.9rem;
+}
+.main-class .inner-class .main-page-wrapper .page-details p {
+  color: #6D6E7A;
+  padding-top: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.main-class .inner-class .main-page-wrapper .link-button {
+  padding: 5rem 3rem;
+}
+.main-class .inner-class .main-page-wrapper .link-button a button {
+  width: 100%;
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+}
+.main-class .inner-class .link-wallet-wrapper {
+  margin-top: 6rem;
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+}
+.main-class .inner-class .link-wallet-wrapper .page-title-wrapper {
+  padding: 0rem 3rem;
+}
+.main-class .inner-class .link-wallet-wrapper .page-title-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .link-wallet-wrapper .page-title-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .link-wallet-wrapper .page-title-wrapper .page-title-parent .page-title-child i {
+  font-size: 2.2rem;
+}
+.main-class .inner-class .link-wallet-wrapper .page-title-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .link-wallet-wrapper .page-title-wrapper .page-title-parent .page-title-child:last-child .icon {
+  background: #6D6E7A;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-class .inner-class .link-wallet-wrapper .page-title-wrapper .page-title-parent .page-title-child:last-child .icon i {
+  font-size: 1.5rem;
+}
+.main-class .inner-class .link-wallet-wrapper .welcome-message {
+  margin-top: 3rem;
+  color: #95B4CB;
+  text-align: center;
+  background: rgba(38, 107, 125, 0.1);
+  padding: 1rem 0rem;
+}
+.main-class .inner-class .link-wallet-wrapper .welcome-message p {
+  font-size: 1.3rem;
+}
+.main-class .inner-class .link-wallet-wrapper .page-image {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .link-wallet-wrapper .page-image img {
+  height: auto;
+  width: 70%;
+}
+.main-class .inner-class .link-wallet-wrapper .wallet-details-wrapper {
+  padding: 0rem 3rem;
+}
+.main-class .inner-class .link-wallet-wrapper .wallet-details-wrapper .wallet-details {
+  border-bottom: 0.12rem solid #D6EBFF;
+}
+.main-class .inner-class .link-wallet-wrapper .wallet-details-wrapper .wallet-details h2 {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+}
+.main-class .inner-class .link-wallet-wrapper .wallet-details-wrapper .wallet-details h1 {
+  color: #9F9F9F;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.main-class .inner-class .link-wallet-wrapper .cryptocurrency-wrapper {
+  padding: 2rem 3rem 1rem 3rem;
+}
+.main-class .inner-class .link-wallet-wrapper .cryptocurrency-wrapper h1 {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.main-class .inner-class .link-wallet-wrapper .cryptocurrency-wrapper .cryptocurrency-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+.main-class .inner-class .link-wallet-wrapper .cryptocurrency-wrapper .cryptocurrency-parent .cryptocurrency-child {
+  display: flex;
+  align-items: center;
+}
+.main-class .inner-class .link-wallet-wrapper .cryptocurrency-wrapper .cryptocurrency-parent .cryptocurrency-child input {
+  height: 2.5rem;
+  width: 1rem;
+  color: #9FABA5;
+  background: none;
+}
+.main-class .inner-class .link-wallet-wrapper .cryptocurrency-wrapper .cryptocurrency-parent .cryptocurrency-child label {
+  padding-left: 0.5rem;
+  color: #6D6E7A;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.main-class .inner-class .link-wallet-wrapper .link-button {
+  padding: 5rem 3rem;
+}
+.main-class .inner-class .link-wallet-wrapper .link-button button {
+  width: 100%;
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+}
+.main-class .inner-class .withdraw-history-wrapper {
+  margin-top: 6rem;
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+  padding-bottom: 3rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-wrapper {
+  padding: 0rem 3rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-wrapper .page-title-parent .page-title-child i {
+  font-size: 2.2rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-wrapper .page-title-parent .page-title-child:last-child .icon {
+  background: #6D6E7A;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-wrapper .page-title-parent .page-title-child:last-child .icon i {
+  font-size: 1.5rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .navigation-bar {
+  padding: 0rem 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .navigation-bar .navigation-bar-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .withdraw-history-wrapper .navigation-bar .navigation-bar-parent .navigation-bar-child {
+  background: #23212B;
+  color: #6D6E7A;
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.7rem;
+  gap: 1rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .navigation-bar .navigation-bar-parent .navigation-bar-child h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-option-wrapper {
+  background: linear-gradient(205deg, rgba(14, 55, 57, 0.5) 0.95%, rgba(16, 42, 65, 0.5) 100%);
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  margin-top: 1rem;
+  margin: 1rem 3rem 0rem 3rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-option-wrapper h2 {
+  color: #79E7E5;
+  font-size: 1.8rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-option-wrapper h3 {
+  color: #41677B;
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-option-wrapper h1 {
+  color: white;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-option-wrapper .status {
+  background: #165B65;
+  margin-top: 0.5rem;
+  width: 7rem;
+  padding: 0.3rem 1rem 0.2rem 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-option-wrapper .status h4 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-option-wrapper p {
+  color: #4C505B;
+  margin-top: 0.5rem;
+}
+.main-class .inner-class .page-wrapper {
+  padding: 3rem 3rem;
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper {
+  margin-top: 2rem;
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper .page-title-parent .page-title-child i {
+  font-size: 2.2rem;
+}
+.main-class .inner-class .page-wrapper .page-title-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .page-wrapper .page-image {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .page-wrapper .page-image img {
+  height: auto;
+  width: 60%;
+}
+.main-class .inner-class .page-wrapper .page-details {
+  text-align: center;
+  margin-top: 3rem;
+}
+.main-class .inner-class .page-wrapper .page-details h1 {
+  color: white;
+}
+.main-class .inner-class .page-wrapper .page-details h3 {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-top: 0.8rem;
+}
+.main-class .inner-class .page-wrapper .invitation-code {
+  text-align: center;
+  border: 0.1rem solid #0D52FF;
+  margin: 3rem 8rem 8rem 8rem;
+  padding: 1rem 0rem;
+  border-radius: 1rem;
+  color: white;
+}
+.main-class .inner-class .page-wrapper .invitation-code h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+}
+.main-class .inner-class .page-wrapper .invitation-code h1 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.main-class .inner-class .page-wrapper .message-button {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+.main-class .inner-class .page-wrapper .message-button button {
+  width: 100%;
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+}
+.main-class .inner-class .security-page-wrapper {
+  padding: 0rem 3rem;
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+}
+.main-class .inner-class .security-page-wrapper .page-title-wrapper {
+  margin-top: 5rem;
+}
+.main-class .inner-class .security-page-wrapper .page-title-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.main-class .inner-class .security-page-wrapper .page-title-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .security-page-wrapper .page-title-wrapper .page-title-parent .page-title-child i {
+  font-size: 2.2rem;
+}
+.main-class .inner-class .security-page-wrapper .page-title-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .security-page-wrapper .security-page-image {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .security-page-wrapper .security-page-image img {
+  width: 10rem;
+}
+.main-class .inner-class .security-page-wrapper .security-pin-wrapper {
+  margin-top: 7rem;
+}
+.main-class .inner-class .security-page-wrapper .security-pin-wrapper .pin-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .security-page-wrapper .security-pin-wrapper .pin-parent .pin-child {
+  background: #23212B;
+  color: #6D6E7A;
+  border-radius: 1rem;
+}
+.main-class .inner-class .security-page-wrapper .security-pin-wrapper .pin-parent .pin-child h2 {
+  padding: 1rem 5.2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .security-page-wrapper .password-wrapper {
+  margin-top: 3rem;
+}
+.main-class .inner-class .security-page-wrapper .password-wrapper h1 {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.main-class .inner-class .security-page-wrapper .password-wrapper input {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 0.1rem solid white;
+  font-size: 1.7rem;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  width: 100%;
+}
+.main-class .inner-class .security-page-wrapper .change-button {
+  margin-top: 8rem;
+}
+.main-class .inner-class .security-page-wrapper .change-button button {
+  width: 100%;
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+}
+.main-class .inner-class .logout-page-wrapper {
+  padding: 0rem 3rem;
+  background: linear-gradient(180deg, #000102 0%, #00103C 100%);
+}
+.main-class .inner-class .logout-page-wrapper .page-title-wrapper {
+  margin-top: 5rem;
+}
+.main-class .inner-class .logout-page-wrapper .page-title-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.main-class .inner-class .logout-page-wrapper .page-title-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .logout-page-wrapper .page-title-wrapper .page-title-parent .page-title-child i {
+  font-size: 2.2rem;
+}
+.main-class .inner-class .logout-page-wrapper .page-title-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper {
+  margin-top: 4rem;
+  background: linear-gradient(205deg, rgba(14, 55, 57, 0.5) 0.95%, rgba(16, 42, 65, 0.5) 100%);
+  border-radius: 1.2rem;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .vip-member-parent {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .vip-member-parent .vip-member-child {
+  color: white;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .vip-member-parent .vip-member-child .vip-member-child-image {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .vip-member-parent .vip-member-child .vip-member-child-image img {
+  height: 5rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .vip-member-parent .vip-member-child .diamond-member-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .vip-member-parent .vip-member-child .diamond-member-parent .diamond-member-child img {
+  height: auto;
+  width: 1.5rem;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .vip-member-parent .vip-member-child .diamond-member-parent .diamond-member-child h2 {
+  padding-left: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .vip-member-parent .vip-member-child h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .progress-bar-wrapper {
+  padding: 2rem 2rem;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .progress-bar-wrapper .progress-bar-parent {
+  height: 0.3rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .progress-bar-wrapper .progress-bar-parent .progress-bar-child {
+  height: 100%;
+  width: 70%;
+  background: #03EADA;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .wallet-balance-wrapper {
+  margin-top: 0.5rem;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .wallet-balance-wrapper .wallet-balance-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.01rem solid #465967;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .wallet-balance-wrapper .wallet-balance-parent .wallet-balance-child {
+  padding: 1rem 2rem;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .wallet-balance-wrapper .wallet-balance-parent .wallet-balance-child .wallet-image-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .wallet-balance-wrapper .wallet-balance-parent .wallet-balance-child .wallet-image-parent .wallet-image-child img {
+  width: 1.5rem;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .wallet-balance-wrapper .wallet-balance-parent .wallet-balance-child .wallet-image-parent .wallet-image-child h2 {
+  padding-left: 0.5rem;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.main-class .inner-class .logout-page-wrapper .vip-member-wrapper .wallet-balance-wrapper .wallet-balance-parent .wallet-balance-child h2 {
+  padding-left: 0.5rem;
+  color: #2FD9C3;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.main-class .inner-class .logout-page-wrapper .logout-button {
+  margin-top: 8rem;
+}
+.main-class .inner-class .logout-page-wrapper .logout-button button {
+  width: 100%;
+  background: #0D52FF;
+  border: none;
+  color: white;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+}
+
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
+  .main-class .inner-class .whole-page-wrapper .business-catalog-wrapper .functions-option-wrapper .option-parent {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

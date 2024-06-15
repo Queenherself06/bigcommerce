@@ -1,0 +1,29 @@
+<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon_04">
+<g id="Group">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M9.24348 9.5H11.1214L9.00157 11.7446L9.00146 11.7445V14.862C11.2053 14.862 12.9918 13.0755 12.9918 10.8717V6.88135C11.27 6.88135 9.80284 7.97192 9.24348 9.5Z" fill="url(#paint0_linear_39_2689)"/>
+<path id="Subtract_2" fill-rule="evenodd" clip-rule="evenodd" d="M9.00109 11.7443L6.88146 9.5H8.75908C8.19972 7.97192 6.73259 6.88135 5.01074 6.88135V10.8717C5.01074 13.0755 6.79728 14.862 9.00109 14.862V11.7443Z" fill="#2FD9C3"/>
+</g>
+<g id="Group_2">
+<rect id="Rectangle" opacity="0.1" x="7.13037" y="1.27002" width="1.49638" height="1.49638" fill="#2FD9C3"/>
+<rect id="Rectangle_2" opacity="0.1" x="9.37451" y="1.27002" width="1.49638" height="1.49638" fill="#2FD9C3"/>
+<rect id="Rectangle_3" opacity="0.4" x="7.13037" y="3.14062" width="1.49638" height="1.49638" fill="#2FD9C3"/>
+<rect id="Rectangle_4" opacity="0.4" x="9.37451" y="3.14062" width="1.49638" height="1.49638" fill="#2FD9C3"/>
+<rect id="Rectangle_5" opacity="0.7" x="7.13037" y="5.01123" width="1.49638" height="1.49638" fill="#2FD9C3"/>
+<rect id="Rectangle_6" opacity="0.7" x="9.37451" y="5.01123" width="1.49638" height="1.49638" fill="#2FD9C3"/>
+<rect id="Rectangle_7" x="7.13037" y="6.88184" width="1.49638" height="1.49638" fill="#2FD9C3"/>
+<rect id="Rectangle_8" x="9.37451" y="6.88184" width="1.49638" height="1.49638" fill="#2FD9C3"/>
+</g>
+<g id="Group_3">
+<path id="Rectangle_9" d="M14.3632 9.43802V11.1066C14.3632 13.9568 11.9626 16.2673 9.00119 16.2673C6.03982 16.2673 3.63916 13.9568 3.63916 11.1066V5.01123" stroke="#2FD9C3" stroke-width="0.374095" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M3.6392 4.94864C3.29486 4.94864 3.01571 4.6695 3.01571 4.32515C3.01571 3.98081 3.29486 3.70166 3.6392 3.70166C3.98355 3.70166 4.2627 3.98081 4.2627 4.32515C4.2627 4.6695 3.98355 4.94864 3.6392 4.94864Z" stroke="#2FD9C3" stroke-width="0.374095"/>
+<path id="Oval_2" fill-rule="evenodd" clip-rule="evenodd" d="M14.3628 9.25089C14.0185 9.25089 13.7393 8.97174 13.7393 8.6274C13.7393 8.28305 14.0185 8.00391 14.3628 8.00391C14.7072 8.00391 14.9863 8.28305 14.9863 8.6274C14.9863 8.97174 14.7072 9.25089 14.3628 9.25089Z" stroke="#2FD9C3" stroke-width="0.374095"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_39_2689" x1="10.9966" y1="6.85788" x2="10.9966" y2="14.4197" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ABECD6"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

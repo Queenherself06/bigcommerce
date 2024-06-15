@@ -1,0 +1,19 @@
+<svg width="42" height="50" viewBox="0 0 42 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-security-purple-gradient 1" clip-path="url(#clip0_17_985)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M5.65381 6.5918V31.1273C5.65381 44.213 23.5577 49.938 23.5577 49.938C23.5577 49.938 41.4615 44.213 41.4615 31.1273V6.5918H23.5577H5.65381Z" fill="url(#paint0_linear_17_985)"/>
+<path id="Vector_2" d="M0 33.9183V0.9375H32.9808L0 33.9183Z" fill="url(#paint1_linear_17_985)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_17_985" x1="41.4615" y1="6.5918" x2="-9.81869" y2="46.4651" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A131ED"/>
+<stop offset="1" stop-color="#A131ED" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_17_985" x1="32.9808" y1="0.9375" x2="0" y2="33.9183" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A131ED"/>
+<stop offset="1" stop-color="#A131ED" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_17_985">
+<rect width="41.4615" height="49" fill="white" transform="translate(0 0.9375)"/>
+</clipPath>
+</defs>
+</svg>
